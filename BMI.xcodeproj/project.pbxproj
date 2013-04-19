@@ -18,6 +18,10 @@
 		9AE7031A1714248F00CAE9FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE703191714248F00CAE9FA /* Default-568h@2x.png */; };
 		9AE7031D1714248F00CAE9FA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7031B1714248F00CAE9FA /* MainStoryboard.storyboard */; };
 		9AE703201714248F00CAE9FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7031F1714248F00CAE9FA /* ViewController.m */; };
+		9AE7032A17142B1E00CAE9FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7032917142B1E00CAE9FA /* AVFoundation.framework */; };
+		9AE7032E17143C3300CAE9FA /* fat.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7032B17143C3300CAE9FA /* fat.aif */; };
+		9AE7032F17143C3300CAE9FA /* normal.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7032C17143C3300CAE9FA /* normal.aif */; };
+		9AE7033017143C3300CAE9FA /* skinny.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7032D17143C3300CAE9FA /* skinny.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		9AE7031C1714248F00CAE9FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9AE7031E1714248F00CAE9FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9AE7031F1714248F00CAE9FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AE7032917142B1E00CAE9FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AE7032B17143C3300CAE9FA /* fat.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = fat.aif; sourceTree = "<group>"; };
+		9AE7032C17143C3300CAE9FA /* normal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aif; sourceTree = "<group>"; };
+		9AE7032D17143C3300CAE9FA /* skinny.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = skinny.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE7032A17142B1E00CAE9FA /* AVFoundation.framework in Frameworks */,
 				9AE703041714248F00CAE9FA /* UIKit.framework in Frameworks */,
 				9AE703061714248F00CAE9FA /* Foundation.framework in Frameworks */,
 				9AE703081714248F00CAE9FA /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,7 @@
 		9AE703021714248F00CAE9FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7032917142B1E00CAE9FA /* AVFoundation.framework */,
 				9AE703031714248F00CAE9FA /* UIKit.framework */,
 				9AE703051714248F00CAE9FA /* Foundation.framework */,
 				9AE703071714248F00CAE9FA /* CoreGraphics.framework */,
@@ -96,6 +106,9 @@
 		9AE7030A1714248F00CAE9FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7032B17143C3300CAE9FA /* fat.aif */,
+				9AE7032C17143C3300CAE9FA /* normal.aif */,
+				9AE7032D17143C3300CAE9FA /* skinny.aif */,
 				9AE7030B1714248F00CAE9FA /* BMI-Info.plist */,
 				9AE7030C1714248F00CAE9FA /* InfoPlist.strings */,
 				9AE7030F1714248F00CAE9FA /* main.m */,
@@ -163,6 +176,9 @@
 				9AE703181714248F00CAE9FA /* Default@2x.png in Resources */,
 				9AE7031A1714248F00CAE9FA /* Default-568h@2x.png in Resources */,
 				9AE7031D1714248F00CAE9FA /* MainStoryboard.storyboard in Resources */,
+				9AE7032E17143C3300CAE9FA /* fat.aif in Resources */,
+				9AE7032F17143C3300CAE9FA /* normal.aif in Resources */,
+				9AE7033017143C3300CAE9FA /* skinny.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
